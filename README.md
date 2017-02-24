@@ -3,8 +3,13 @@ Data Structures
 
 <h3>Binary Search Tree</h3>
 ```
-BST
-- Insertion, Find/Get, Traversal, max, min, copy constructor, and more!
+Insertion
+Find/Get
+Traversal
+max
+min
+copy constructor
++ more
 ```
 <a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/euclid.h">BST - Implementation</a>
 <br>
