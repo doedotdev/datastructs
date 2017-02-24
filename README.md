@@ -9,14 +9,14 @@ Data Structures
   / \ / \
  0  0 0  0
 ```
-<a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/euclid.h">bst - Implementation</a>
+<a href="https://github.com/hornbd96/datastructs/blob/master/test/bst.h">bst - Implementation</a>
 <br>
-<a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/euclidTest.cpp">bst - Unit Tests</a>
+<a href="https://github.com/hornbd96/datastructs/blob/master/test/bstTest.cpp">bst - Unit Tests</a>
 <br>
 
 <h3>Doubly Linked List</h3>
 ```
-push back, push front, remove, clear, copy constructor, and no memory leaks. 
+HEAD -> (data) -> (data) -> (data) -> Tail
 ```
 <a href="https://github.com/hornbd96/linkedList/blob/master/linkedList/tests/doublyLinkedList.h">Doubly Linked List - Implementation</a>
 <br>
@@ -25,7 +25,12 @@ push back, push front, remove, clear, copy constructor, and no memory leaks.
 
 <h3>Stack</h3>
 ```
-push, pop.
+in ->       -> out 
+     (data)
+     (data)
+     (data)         Last in, First Out.
+     (data)
+     (data)
 ```
 <a href="https://github.com/hornbd96/linkedList/blob/master/linkedList/tests/stack.h">Stack - Implementation</a>
 <br>
@@ -34,7 +39,13 @@ push, pop.
 
 <h3>Queue</h3>
 ```
-enqueue, dequeue.
+in ->     
+     (data)
+     (data)
+     (data)         First in, First Out.
+     (data)
+     (data)
+            -> out
 ```
 <a href="https://github.com/hornbd96/linkedList/blob/master/linkedList/tests/queue.h">Queue - Implementation</a>
 <br>
