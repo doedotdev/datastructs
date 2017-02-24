@@ -1,9 +1,6 @@
 # datastructs
 Data Structures
 
-# algorithms
-Design and Analysis of Algorithms
-
 <h3>Binary Search Tree</h3>
 ```
 BST
