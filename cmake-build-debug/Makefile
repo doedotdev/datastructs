@@ -246,6 +246,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/datastructs.dir/build.make CMakeFiles/datastructs.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+test/bstTest.o: test/bstTest.cpp.o
+
+.PHONY : test/bstTest.o
+
+# target to build an object file
+test/bstTest.cpp.o:
+	$(MAKE) -f CMakeFiles/datastructs.dir/build.make CMakeFiles/datastructs.dir/test/bstTest.cpp.o
+.PHONY : test/bstTest.cpp.o
+
+test/bstTest.i: test/bstTest.cpp.i
+
+.PHONY : test/bstTest.i
+
+# target to preprocess a source file
+test/bstTest.cpp.i:
+	$(MAKE) -f CMakeFiles/datastructs.dir/build.make CMakeFiles/datastructs.dir/test/bstTest.cpp.i
+.PHONY : test/bstTest.cpp.i
+
+test/bstTest.s: test/bstTest.cpp.s
+
+.PHONY : test/bstTest.s
+
+# target to generate assembly for a file
+test/bstTest.cpp.s:
+	$(MAKE) -f CMakeFiles/datastructs.dir/build.make CMakeFiles/datastructs.dir/test/bstTest.cpp.s
+.PHONY : test/bstTest.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -266,6 +293,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... test/bstTest.o"
+	@echo "... test/bstTest.i"
+	@echo "... test/bstTest.s"
 .PHONY : help
 
 

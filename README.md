@@ -11,9 +11,9 @@ min
 copy constructor
 + more
 ```
-<a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/euclid.h">BST - Implementation</a>
+<a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/euclid.h">bst - Implementation</a>
 <br>
-<a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/euclidTest.cpp">BST - Unit Tests</a>
+<a href="https://github.com/hornbd96/algorithms/blob/master/algos/test/euclidTest.cpp">bst - Unit Tests</a>
 <br>
 
 <h3>Misc Items</h3>

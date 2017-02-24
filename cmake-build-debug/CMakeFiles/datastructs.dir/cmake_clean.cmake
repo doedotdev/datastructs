@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/datastructs.dir/main.cpp.o"
+  "CMakeFiles/datastructs.dir/test/bstTest.cpp.o"
   "datastructs.pdb"
   "datastructs"
 )

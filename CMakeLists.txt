@@ -6,6 +6,6 @@ add_subdirectory(lib/googletest-release-1.8.0)
 include_directories(lib/googletest-release-1.8.0/googletest/include)
 include_directories(lib/googletest-release-1.8.0/googlemock/include)
 
-set(SOURCE_FILES main.cpp test/bst.h)
-add_executable(datastructs ${SOURCE_FILES} test/bst.h)
+set(SOURCE_FILES main.cpp test/bst.h test/bstTest.cpp)
+add_executable(datastructs ${SOURCE_FILES} test/bst.h test/bstTest.cpp)
 target_link_libraries(datastructs gtest gtest_main)
