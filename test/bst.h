@@ -16,11 +16,24 @@ using namespace std;
 template <class T>
 class Node{
 public:
-    Node(Node* left, Node* right, T value)
-            :data(value),left(left),right(right){} // initializes data before body of constructor executes
+    Node(Node* left_node, Node* right_node, T value){
+        data = value;
+        left = left_node;
+        right = right_node;
+    }
+           // :data(value),left(left),right(right){} // initializes data before body of constructor executes
     T data;
     Node* left;
     Node* right;
+};
+
+// Structure that holds/ is the node. Data and 2 pointers to the 'leaf' nodes
+template <class T>
+struct node{
+    T data;
+    node* left;
+    node* right;
+
 };
 
 template <class T>
@@ -32,7 +45,7 @@ public:
         cmpfn = f;
         // TODO
         root = NULL;
-        ents = 0;
+        bst_size = 0;
     }
 
     // Destructor
@@ -40,14 +53,14 @@ public:
         // TODO
         clear(root);
         root = NULL;
-        ents = 0;
+        bst_size = 0;
     }
 
     // Copy Constructor
     bst(const bst& other){
         // TODO
         cmpfn = other.cmpfn;
-        ents = other.ents;
+        bst_size = other.bst_size;
         root = NULL;
         if(other.root != NULL){
             insertPre(other.root);
@@ -60,7 +73,7 @@ public:
         if(this != &other){
             this->clear();
             cmpfn = other.cmpfn;
-            ents = other.ents;
+            bst_size = other.bst_size;
             root = NULL;
             if(other.root != NULL){
                 insertPre(other.root);
@@ -72,7 +85,7 @@ public:
     // Inserts the thing
     void insert(T thing){
         // TODO
-        ents++;
+        bst_size++;
         if(!root){
             root = new Node<T>(NULL, NULL, thing);
             return;
@@ -89,7 +102,7 @@ public:
     // Returns the number of nodes
     unsigned int size() const{
         // TODO
-        return ents;
+        return bst_size;
     }
 
     // Returns smallest value
@@ -109,7 +122,7 @@ public:
         // TODO
         clear(root);
         root = NULL;
-        ents = 0;
+        bst_size = 0;
     }
 
     // Returns nodes in left->node->right
@@ -157,7 +170,7 @@ public:
 
 private:
     Node<T>* root;
-    unsigned int ents;
+    unsigned int bst_size;
     int (*cmpfn)(const T& left, const T& right);
 
     // TODO  Hint, you may have many functions down here!

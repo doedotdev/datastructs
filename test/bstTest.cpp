@@ -214,9 +214,8 @@ TEST_F(classTestBinarySearchTree, test23){
     ASSERT_TRUE(a.find("binge"));
     ASSERT_TRUE(!a.find("broad"));
 }
-/******
-/*
-void testInorder1(){
+
+TEST_F(classTestBinarySearchTree, test24){
     bst<int> a(compare);
     a.insert(5);
     string out = a.getInOrder();
@@ -224,7 +223,7 @@ void testInorder1(){
     ASSERT_EQ(out, "[5]");
 }
 
-void testInorder2(){
+TEST_F(classTestBinarySearchTree, test25){
     bst<int> a(compare);
     a.insert(5);
     a.insert(6);
@@ -235,7 +234,7 @@ void testInorder2(){
     ASSERT_EQ(out, "[5,6,7,8]");
 }
 
-void testPreOrder1(){
+TEST_F(classTestBinarySearchTree, test26){
     bst<int> a(compare);
     a.insert(5);
     a.insert(7);
@@ -246,7 +245,7 @@ void testPreOrder1(){
     ASSERT_EQ(out, "[5,7,6,8]");
 }
 
-void testPreOrder2(){
+TEST_F(classTestBinarySearchTree, test27){
     bst<int> a(compare);
     a.insert(6);
     string out = a.getPreOrder();
@@ -254,7 +253,7 @@ void testPreOrder2(){
     ASSERT_EQ(out, "[6]");
 }
 
-void testPostorder1(){
+TEST_F(classTestBinarySearchTree, test28){
     bst<int> a(compare);
     a.insert(5);
     string out = a.getPostOrder();
@@ -262,7 +261,7 @@ void testPostorder1(){
     ASSERT_EQ(out, "[5]");
 }
 
-void testPostorder2(){
+TEST_F(classTestBinarySearchTree, test29){
     bst<int> a(compare);
     a.insert(5);
     a.insert(6);
@@ -273,25 +272,25 @@ void testPostorder2(){
     ASSERT_EQ(out, "[8,7,6,5]");
 }
 
-void testHeight0() {
+TEST_F(classTestBinarySearchTree, test30){
     bst<int> a(compare);
     ASSERT_EQ(a.getHeight(), 0);
 }
 
-void testHeight1() {
+TEST_F(classTestBinarySearchTree, test31){
     bst<int> a(compare);
     a.insert(5);
     ASSERT_EQ(a.getHeight(), 0);
 }
 
-void testHeight2() {
+TEST_F(classTestBinarySearchTree, test32){
     bst<int> a(compare);
     a.insert(5);
     a.insert(6);
     ASSERT_EQ(a.getHeight(), 1);
 }
-// TODO
-void testHeight3(){
+
+TEST_F(classTestBinarySearchTree, test33){
     bst<int> a(compare);
     a.insert(20);
     a.insert(2);
@@ -305,33 +304,33 @@ void testHeight3(){
     ASSERT_EQ(a.getHeight(), 4);
 }
 
-void testFull0() {
+TEST_F(classTestBinarySearchTree, test34){
     bst<int> a(compare);
     ASSERT_TRUE(a.isFull());
 }
 
-void testFull1() {
+TEST_F(classTestBinarySearchTree, test35){
     bst<int> a(compare);
     a.insert(10);
     ASSERT_TRUE(a.isFull());
 }
 
-void testFull2() {
+TEST_F(classTestBinarySearchTree, test36){
     bst<int> a(compare);
     a.insert(10);
     a.insert(12);
     ASSERT_TRUE(!a.isFull());
 }
 
-void testFull3() {
+TEST_F(classTestBinarySearchTree, test37){
     bst<int> a(compare);
     a.insert(10);
     a.insert(12);
     a.insert(8);
     ASSERT_TRUE(a.isFull());
 }
-// TODO
-void testFull4(){
+
+TEST_F(classTestBinarySearchTree, test38){
     bst<int> a(compare);
     a.insert(10);
     a.insert(12);
@@ -343,25 +342,25 @@ void testFull4(){
     ASSERT_TRUE(a.isFull());
 }
 
-void testBalanced0(){
+TEST_F(classTestBinarySearchTree, test39){
     bst<int> a(compare);
     ASSERT_TRUE(a.isBalanced());
 }
 
-void testBalanced1(){
+TEST_F(classTestBinarySearchTree, test40){
     bst<int> a(compare);
     a.insert(5);
     ASSERT_TRUE(a.isBalanced());
 }
 
-void testBalanced2(){
+TEST_F(classTestBinarySearchTree, test41){
     bst<int> a(compare);
     a.insert(5);
     a.insert(3);
     ASSERT_TRUE(a.isBalanced());
 }
 
-void testBalanced3(){
+TEST_F(classTestBinarySearchTree, test42){
     bst<int> a(compare);
     a.insert(5);
     a.insert(3);
@@ -369,7 +368,7 @@ void testBalanced3(){
     ASSERT_TRUE(a.isBalanced());
 }
 
-void testBalanced4(){
+TEST_F(classTestBinarySearchTree, test43){
     bst<int> a(compare);
     a.insert(5);
     a.insert(3);
@@ -378,15 +377,15 @@ void testBalanced4(){
     ASSERT_TRUE(a.isBalanced());
 }
 
-void testBalanced5(){
+TEST_F(classTestBinarySearchTree, test44){
     bst<int> a(compare);
     a.insert(5);
     a.insert(6);
     a.insert(7);
     ASSERT_TRUE(!a.isBalanced());
 }
-// TODO
-void testBalanced6(){
+
+TEST_F(classTestBinarySearchTree, test45){
     bst<int> a(compare);
     a.insert(20);
     a.insert(15);
@@ -397,4 +396,3 @@ void testBalanced6(){
     a.insert(23);
     ASSERT_TRUE(a.isBalanced());
 }
-*/
