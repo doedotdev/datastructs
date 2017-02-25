@@ -20,17 +20,19 @@ TEST_F(classTestBinarySearchTree, test1){
 }
 
 
-
+// int compare function
 int compare(const int& left, const int& right){
     return left - right;
 }
 
+// string compare function
 int compare(const string& left, const string& right){
-    // The string class has a built-in compare function!
     return left.compare(right);
 }
 
-
+/**
+ * Begin Tests for BST
+ */
 TEST_F(classTestBinarySearchTree, test2){
     bst<int> a(compare);
     ASSERT_EQ(a.size(), 0);

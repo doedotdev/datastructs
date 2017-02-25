@@ -21,12 +21,13 @@ public:
         left = left_node;
         right = right_node;
     }
-           // :data(value),left(left),right(right){} // initializes data before body of constructor executes
     T data;
     Node* left;
     Node* right;
 };
 
+// This sctructure is unused but could be used the same as the class above.
+// Struct could also have a constructor like a class in c++
 // Structure that holds/ is the node. Data and 2 pointers to the 'leaf' nodes
 template <class T>
 struct node{
@@ -173,25 +174,24 @@ private:
     unsigned int bst_size;
     int (*cmpfn)(const T& left, const T& right);
 
-    // TODO  Hint, you may have many functions down here!
     // Recursive insert
     void insert(Node<T>* node, T thing){
-        if(!node){
+        if(!node){ // if there is no root, make it the root
             if(root == NULL){
                 root = new Node<T>(NULL, NULL, thing);
                 return;
             }
-            throw logic_error("Node is null");
+            throw logic_error("Null Node;");
         }
-        if((*cmpfn)(thing, node->data) <= 0){
+        if((*cmpfn)(thing, node->data) <= 0){ // if it is less than the current node, insert left.
             if(node->left){
-                insert(node->left, thing);
+                insert(node->left, thing); // recall insert if there is a node there
             }
             else{
-                node->left = new Node<T>(NULL, NULL, thing);
+                node->left = new Node<T>(NULL, NULL, thing); // if there is a node
             }
         }
-        else{
+        else{ // is it greater than, so do the same thing on the right
             if(node->right){
                 insert(node->right, thing);
             }
@@ -230,7 +230,7 @@ private:
         else{
             stringstream s;
             string ret = "";
-            s << node->data;
+        s << node->data; // call node->data before (pre) left and right nodes
             if(node != root){
                 ret = ret + "," + s.str();
             }
@@ -253,7 +253,7 @@ private:
             string ret = "";
             ret = ret + getPostOrder(node->left);
             ret = ret + getPostOrder(node->right);
-            s << node->data;
+            s << node->data; // get node data after left and right call
             if(node != root){
                 ret = ret + s.str() + ",";
             }
@@ -266,7 +266,7 @@ private:
 
     // Returns true if value is found
     bool find(Node<T>* node, T thing) const{
-        if(!node){
+        if(!node){ // no nodes/ no no nodes left :(
             return false;
         }
         else{
