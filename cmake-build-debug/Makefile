@@ -273,6 +273,33 @@ test/bstTest.cpp.s:
 	$(MAKE) -f CMakeFiles/datastructs.dir/build.make CMakeFiles/datastructs.dir/test/bstTest.cpp.s
 .PHONY : test/bstTest.cpp.s
 
+test/hashTableTest.o: test/hashTableTest.cpp.o
+
+.PHONY : test/hashTableTest.o
+
+# target to build an object file
+test/hashTableTest.cpp.o:
+	$(MAKE) -f CMakeFiles/datastructs.dir/build.make CMakeFiles/datastructs.dir/test/hashTableTest.cpp.o
+.PHONY : test/hashTableTest.cpp.o
+
+test/hashTableTest.i: test/hashTableTest.cpp.i
+
+.PHONY : test/hashTableTest.i
+
+# target to preprocess a source file
+test/hashTableTest.cpp.i:
+	$(MAKE) -f CMakeFiles/datastructs.dir/build.make CMakeFiles/datastructs.dir/test/hashTableTest.cpp.i
+.PHONY : test/hashTableTest.cpp.i
+
+test/hashTableTest.s: test/hashTableTest.cpp.s
+
+.PHONY : test/hashTableTest.s
+
+# target to generate assembly for a file
+test/hashTableTest.cpp.s:
+	$(MAKE) -f CMakeFiles/datastructs.dir/build.make CMakeFiles/datastructs.dir/test/hashTableTest.cpp.s
+.PHONY : test/hashTableTest.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -296,6 +323,9 @@ help:
 	@echo "... test/bstTest.o"
 	@echo "... test/bstTest.i"
 	@echo "... test/bstTest.s"
+	@echo "... test/hashTableTest.o"
+	@echo "... test/hashTableTest.i"
+	@echo "... test/hashTableTest.s"
 .PHONY : help
 
 

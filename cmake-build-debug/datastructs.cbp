@@ -340,6 +340,12 @@
 		<Unit filename="/Users/benjamin.horn/Documents/git/datastructs/test/bstTest.cpp">
 			<Option target="datastructs"/>
 		</Unit>
+		<Unit filename="/Users/benjamin.horn/Documents/git/datastructs/test/hashTable.h">
+			<Option target="datastructs"/>
+		</Unit>
+		<Unit filename="/Users/benjamin.horn/Documents/git/datastructs/test/hashTableTest.cpp">
+			<Option target="datastructs"/>
+		</Unit>
 		<Unit filename="/Users/benjamin.horn/Documents/git/datastructs/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
