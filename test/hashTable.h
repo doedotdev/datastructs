@@ -16,7 +16,7 @@ struct node_t {
     int state;
 };
 
-
+//Use max_size value as a flag for deletion
 template <class T>
 class HashTable {
 public:
@@ -164,8 +164,10 @@ public:
         }
     }
 
+
     // Removes elements from table
     void clear() {
+        // TODO
         for (unsigned int i = 0; i < max_size; i++) {
             //table[i].value = 0;
             table[i].state = 0;
