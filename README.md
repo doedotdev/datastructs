@@ -6,9 +6,9 @@ Data Structures
 Hash Table that takes type <T>
 
 Keys   -->HashFunction()--> Values
-John   -->HashFunction()--> 0001
-Alice  -->HashFunction()--> 0002
-Jim    -->HashFunction()--> 0003
+John   -->HashFunction()--> 234981
+Alice  -->HashFunction()--> 134892
+Jim    -->HashFunction()--> 987485
 ```
 <a href="https://github.com/hornbd96/datastructs/blob/master/test/hashTable.h">Hash - Implementation</a>
 <br>
