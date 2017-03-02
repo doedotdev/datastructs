@@ -22,7 +22,7 @@ class HashTable {
 public:
     // Constructor
     HashTable(unsigned int (*f)(const T &), unsigned int capacity) {
-        hashfn = f;
+        hash_function = f;
         // Keep filling me in!
         max_size = capacity;
         table = new node_t<T>[max_size];
@@ -44,7 +44,7 @@ public:
     // Copy constructor
     HashTable(const HashTable &other) {
         // TODO
-        hashfn = other.hashfn;
+        hash_function = other.hash_function;
         this->max_size = other.max_size;
         this->table = new node_t<T>[max_size];
         for (unsigned int i = 0; i < max_size; i++) {
@@ -60,7 +60,7 @@ public:
         if (this == &other) {
             return *this;
         }
-        hashfn = other.hashfn;
+        hash_function = other.hash_function;
         delete[] this->table;
         this->table = new node_t<T>[other.max_size];
         this->max_size = other.max_size;
@@ -75,7 +75,7 @@ public:
     // Checks to see if thing is in table
     bool find(T thing) const {
         // TODO
-        unsigned int index = (*hashfn)(thing) % max_size;
+        unsigned int index = (*hash_function)(thing) % max_size;
         unsigned int orig = index;
         node_t<T> hsh = table[index];
         while (hsh.state != 0) {
@@ -123,7 +123,7 @@ public:
         if (this->find(thing) == true) {
             return;
         }
-        unsigned int index = (*hashfn)(thing) % max_size;
+        unsigned int index = (*hash_function)(thing) % max_size;
         node_t<T> hsh = table[index];
         if (hsh.state != 1) {
             table[index].value = thing;
@@ -146,7 +146,7 @@ public:
     // Removes thing from table
     void remove(T thing) {
         // TODO
-        unsigned int index = (*hashfn)(thing) % max_size;
+        unsigned int index = (*hash_function)(thing) % max_size;
         unsigned int orig = index;
         node_t<T> hsh = table[index];
         while (hsh.state != 0) {
@@ -178,7 +178,7 @@ public:
 
 private:
     // This will store the hash function that was passed in.
-    unsigned int (*hashfn)(const T &thing);
+    unsigned int (*hash_function)(const T &thing);
     unsigned int hash_table_elements;
     unsigned int max_size;
     node_t<T> *table;
