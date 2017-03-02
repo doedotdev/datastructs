@@ -489,6 +489,20 @@ bst.h
 /Users/benjamin.horn/Documents/git/datastructs/test/bst.h
 
 /Users/benjamin.horn/Documents/git/datastructs/test/hashTable.h
+gtest/gtest.h
+-
+gmock/gmock.h
+-
+stdexcept
+-
+string
+-
+sstream
+-
+algorithm
+-
+ctime
+-
 ostream
 -
 stdexcept
@@ -510,5 +524,11 @@ sstream
 algorithm
 -
 ctime
+-
+iostream
+-
+vector
+-
+fstream
 -
 

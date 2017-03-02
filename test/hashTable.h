@@ -2,9 +2,16 @@
 // Created by Benjamin D. Horn on 2/24/17.
 //
 
-#ifndef DATASTRUCTS_HASHTABLE_H
-#define DATASTRUCTS_HASHTABLE_H
+#ifndef HASHTABLE_H
+#define HASHTABLE_H
 
+#include <gtest/gtest.h>
+#include <gmock/gmock.h>
+#include <stdexcept>
+#include <string>
+#include <sstream>
+#include <algorithm>
+#include <ctime>
 #include <ostream>
 #include <stdexcept>
 
@@ -185,4 +192,4 @@ private:
 };
 
 
-#endif //DATASTRUCTS_HASHTABLE_H
+#endif
