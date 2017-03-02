@@ -1,6 +1,20 @@
 # datastructs
 Data Structures
 
+<h3>Hash Table</h3>
+```
+Hash Table that takes type <T>
+
+Keys   -->HashFunction()--> Values
+John   -->HashFunction()--> 0001
+Alice  -->HashFunction()--> 0002
+Jim    -->HashFunction()--> 0003
+```
+<a href="https://github.com/hornbd96/datastructs/blob/master/test/hashTable.h">Hash - Implementation</a>
+<br>
+<a href="https://github.com/hornbd96/datastructs/blob/master/test/hashTableTest.cpp">Hash - Unit Tests</a>
+<br>
+
 <h3>Binary Search Tree</h3>
 ```
      0
