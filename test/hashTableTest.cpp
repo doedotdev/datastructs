@@ -30,7 +30,7 @@ unsigned int hash(const int& number){ // hash function
     return abs(number);
 }
 
-/**
+
 unsigned int hash(const string& word){ // hash function
     unsigned int ret = 0;
     for(unsigned int i = 0; i < word.length(); i++){
@@ -38,7 +38,6 @@ unsigned int hash(const string& word){ // hash function
     }
     return ret;
 }
-**/
 
 TEST_F(classTestHashTable, test1){
     HashTable<int> a(::hash, 5);
@@ -269,4 +268,34 @@ TEST_F(classTestHashTable, test30){
     a.remove(5);
     a.insert(5);
     ASSERT_EQ(a.size(), 1);
+}
+
+// Test Type T Exercises
+
+
+TEST_F(classTestHashTable, test31){
+    HashTable<string> a(::hash, 10);
+    a.insert("bob");
+    a.insert("bib");
+    a.insert("bab");
+    a.remove("bla");
+    a.remove("bab");
+    a.remove("bib");
+    a.remove("bob");
+    ASSERT_EQ(a.size(), 0);
+    ASSERT_TRUE(! a.find("bob"));
+}
+
+TEST_F(classTestHashTable, testFuzz){
+    HashTable<int> a(::hash, SIZE);
+    for(unsigned int i = 0; i < SIZE; i++){
+        a.insert(SIZE * i);
+        ASSERT_EQ(a.size(), i+1);
+    }
+    ASSERT_EQ(a.size(), SIZE);
+    for(unsigned int i = 0; i < SIZE; i++){
+        a.remove(SIZE * i);
+        ASSERT_EQ(a.size(), SIZE - i - 1);
+    }
+    ASSERT_EQ(a.size(), 0);
 }
