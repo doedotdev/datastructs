@@ -15,7 +15,7 @@ Prefix Tree of toLower strings
 ```
 <a href="https://github.com/hornbd96/datastructs/blob/master/test/prefixTree.h">Pre - Implementation</a>
 <br>
-<a href="https://github.com/hornbd96/datastructs/blob/master/test/PrefixTreeTest.cpp">Pre - Unit Tests</a>
+<a href="https://github.com/hornbd96/datastructs/blob/master/test/prefixTreeTest.cpp">Pre - Unit Tests</a>
 <br>
 
 <h3>Hash Table</h3>
