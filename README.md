@@ -1,6 +1,23 @@
 # datastructs
 Data Structures
 
+<h3>Prefix Tree</h3>
+```
+P
+Pre
+Pref
+Prefi
+Prefix
+Prefix Tree
+Prefix Tree of 
+Prefix Tree of toLower
+Prefix Tree of toLower strings
+```
+<a href="https://github.com/hornbd96/datastructs/blob/master/test/prefixTree.h">Pre - Implementation</a>
+<br>
+<a href="https://github.com/hornbd96/datastructs/blob/master/test/PrefixTreeTest.cpp">Pre - Unit Tests</a>
+<br>
+
 <h3>Hash Table</h3>
 ```
 Hash Table that takes type <T>
