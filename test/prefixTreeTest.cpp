@@ -1,10 +1,10 @@
 //
 // Created by Benjamin D. Horn on 3/2/17.
 //
-
 #include <gtest/gtest.h>
 #include <gmock/gmock.h>
 #include "prefixTree.h"
+#include "prefixTreeSuggestInterface.h"
 
 using namespace std;
 
