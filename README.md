@@ -47,7 +47,7 @@ Jim    -->HashFunction()--> 987485
 
 <h3>Doubly Linked List</h3>
 ```
-HEAD -> (data) -> (data) -> (data) -> Tail
+HEAD -> (data) -> (data) -> (data) -> TAIL
 ```
 <a href="https://github.com/hornbd96/linkedList/blob/master/linkedList/tests/doublyLinkedList.h">Doubly Linked List - Implementation</a>
 <br>
