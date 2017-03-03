@@ -532,3 +532,25 @@ vector
 fstream
 -
 
+/Users/benjamin.horn/Documents/git/datastructs/test/prefixTree.h
+string
+-
+vector
+-
+
+/Users/benjamin.horn/Documents/git/datastructs/test/prefixTreeTest.cpp
+gtest/gtest.h
+-
+gmock/gmock.h
+-
+prefixTree.h
+/Users/benjamin.horn/Documents/git/datastructs/test/prefixTree.h
+string
+-
+sstream
+-
+algorithm
+-
+ctime
+-
+

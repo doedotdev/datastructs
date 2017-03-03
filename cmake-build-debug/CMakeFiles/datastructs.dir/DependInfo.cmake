@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/benjamin.horn/Documents/git/datastructs/main.cpp" "/Users/benjamin.horn/Documents/git/datastructs/cmake-build-debug/CMakeFiles/datastructs.dir/main.cpp.o"
   "/Users/benjamin.horn/Documents/git/datastructs/test/bstTest.cpp" "/Users/benjamin.horn/Documents/git/datastructs/cmake-build-debug/CMakeFiles/datastructs.dir/test/bstTest.cpp.o"
   "/Users/benjamin.horn/Documents/git/datastructs/test/hashTableTest.cpp" "/Users/benjamin.horn/Documents/git/datastructs/cmake-build-debug/CMakeFiles/datastructs.dir/test/hashTableTest.cpp.o"
+  "/Users/benjamin.horn/Documents/git/datastructs/test/prefixTreeTest.cpp" "/Users/benjamin.horn/Documents/git/datastructs/cmake-build-debug/CMakeFiles/datastructs.dir/test/prefixTreeTest.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

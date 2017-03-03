@@ -300,6 +300,33 @@ test/hashTableTest.cpp.s:
 	$(MAKE) -f CMakeFiles/datastructs.dir/build.make CMakeFiles/datastructs.dir/test/hashTableTest.cpp.s
 .PHONY : test/hashTableTest.cpp.s
 
+test/prefixTreeTest.o: test/prefixTreeTest.cpp.o
+
+.PHONY : test/prefixTreeTest.o
+
+# target to build an object file
+test/prefixTreeTest.cpp.o:
+	$(MAKE) -f CMakeFiles/datastructs.dir/build.make CMakeFiles/datastructs.dir/test/prefixTreeTest.cpp.o
+.PHONY : test/prefixTreeTest.cpp.o
+
+test/prefixTreeTest.i: test/prefixTreeTest.cpp.i
+
+.PHONY : test/prefixTreeTest.i
+
+# target to preprocess a source file
+test/prefixTreeTest.cpp.i:
+	$(MAKE) -f CMakeFiles/datastructs.dir/build.make CMakeFiles/datastructs.dir/test/prefixTreeTest.cpp.i
+.PHONY : test/prefixTreeTest.cpp.i
+
+test/prefixTreeTest.s: test/prefixTreeTest.cpp.s
+
+.PHONY : test/prefixTreeTest.s
+
+# target to generate assembly for a file
+test/prefixTreeTest.cpp.s:
+	$(MAKE) -f CMakeFiles/datastructs.dir/build.make CMakeFiles/datastructs.dir/test/prefixTreeTest.cpp.s
+.PHONY : test/prefixTreeTest.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -326,6 +353,9 @@ help:
 	@echo "... test/hashTableTest.o"
 	@echo "... test/hashTableTest.i"
 	@echo "... test/hashTableTest.s"
+	@echo "... test/prefixTreeTest.o"
+	@echo "... test/prefixTreeTest.i"
+	@echo "... test/prefixTreeTest.s"
 .PHONY : help
 
 
