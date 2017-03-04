@@ -21,13 +21,18 @@
 using namespace std;
 
 class prefixTreeSuggestInterface {
+public:
+    prefixTreeSuggestInterface() {
+        run(2, "Barrie-PeterPan.txt");
+
+    }
 
 
     string getFile(string file_name) {
         string ret;
         // Read the file!
         fstream file;
-        file.open(file_name.c_str(), ios::in);
+        file.open(file_name, ios::in);
         if (file) { // Must have opened fine
             std::cout << "File is Open" << std::endl;
             while (file) {
@@ -57,20 +62,24 @@ class prefixTreeSuggestInterface {
         return sentence.substr(start, num_chars);
     }
 
-    int run(int argc, char* argv[]){ // use to be main
+    int run(int argc, string file_name){ // use to be main
         // Make sure they gave us a folder
         if(argc != 2){
             cout << "Enter file on command-line\n";
             return 1;
         }
 
-        string files =  getFile( string(argv[1])); // contains all the strings
+        string files =  getFile( file_name); // contains all the strings
         // Generage snippets of length 5
         prefixTree snippets;
         addSnippets(files, snippets, 20);
-        /*for(unsigned int i = 0; i < words.size(); i++){
+        cout << "for loop" << endl;
+        /**
+        for(unsigned int i = 0; i < words.size(); i++){
           cout << i << ":" << words[i] << "-"<< endl;
-        } */
+        }
+        cout << "end for loop" << endl;
+         **/
         cout << "Number of snippets: " << snippets.getNumStored() << endl;
         string start = "";
         // Manipulate the terminal to get characters without enter

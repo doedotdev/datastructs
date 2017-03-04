@@ -297,3 +297,8 @@ TEST_F(classTestPrefixTree, test36){
     a.insert("word");
     ASSERT_EQ(a.isStored("wor"), false);
 }
+
+TEST_F(classTestPrefixTree, test37){
+    //prefixTreeSuggestInterface a;
+    ASSERT_TRUE(true);
+}
