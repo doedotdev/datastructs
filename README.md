@@ -60,9 +60,9 @@ Jim    -->HashFunction()--> 987485
 ```
 HEAD -> (data) -> (data) -> (data) -> TAIL
 ```
-<a href="https://github.com/hornbd96/linkedList/blob/master/linkedList/cpp/tests/doublyLinkedList.h">Doubly Linked List - Implementation</a>
+<a href="https://github.com/hornbd96/linkedList/blob/master/linkedList/tests/doublyLinkedList.h">Doubly Linked List - Implementation</a>
 <br>
-<a href="https://github.com/hornbd96/linkedList/blob/master/linkedList/cpp/tests/tests.cpp">Doubly Linked List - Unit Tests</a>
+<a href="https://github.com/hornbd96/linkedList/blob/master/linkedList/tests/tests.cpp">Doubly Linked List - Unit Tests</a>
 <br>
 
 <h3>Stack</h3>
@@ -74,9 +74,9 @@ in ->       -> out
      (data)
      (data)
 ```
-<a href="https://github.com/hornbd96/linkedList/blob/master/linkedList/cpp/tests/stack.h">Stack - Implementation</a>
+<a href="https://github.com/hornbd96/linkedList/blob/master/linkedList/tests/stack.h">Stack - Implementation</a>
 <br>
-<a href="https://github.com/hornbd96/linkedList/blob/master/linkedList/cpp/tests/stackTest.cpp">Stack - Unit Tests</a>
+<a href="https://github.com/hornbd96/linkedList/blob/master/linkedList/tests/stackTest.cpp">Stack - Unit Tests</a>
 <br>
 
 <h3>Queue</h3>
