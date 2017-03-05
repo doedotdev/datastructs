@@ -87,6 +87,6 @@ in ->    
 ```
 Misc Items...
 ```
-<a href="https://github.com/hornbd96">Misc Items</a>
+<a href="https://github.com/hornbd96/datastructs/tree/master/Books">Fun book text files to play with...</a>
 <br>
 
