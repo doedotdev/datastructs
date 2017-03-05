@@ -167,5 +167,4 @@ CMakeFiles/datastructs.dir/test/prefixTreeTest.cpp.o
  ../lib/googletest-release-1.8.0/googletest/include/gtest/internal/gtest-tuple.h
  ../lib/googletest-release-1.8.0/googletest/include/gtest/internal/gtest-type-util.h
  /Users/benjamin.horn/Documents/git/datastructs/test/prefixTree.h
- /Users/benjamin.horn/Documents/git/datastructs/test/prefixTreeSuggestInterface.h
  /Users/benjamin.horn/Documents/git/datastructs/test/prefixTreeTest.cpp

@@ -166,6 +166,5 @@ CMakeFiles/datastructs.dir/test/prefixTreeTest.cpp.o: ../lib/googletest-release-
 CMakeFiles/datastructs.dir/test/prefixTreeTest.cpp.o: ../lib/googletest-release-1.8.0/googletest/include/gtest/internal/gtest-tuple.h
 CMakeFiles/datastructs.dir/test/prefixTreeTest.cpp.o: ../lib/googletest-release-1.8.0/googletest/include/gtest/internal/gtest-type-util.h
 CMakeFiles/datastructs.dir/test/prefixTreeTest.cpp.o: ../test/prefixTree.h
-CMakeFiles/datastructs.dir/test/prefixTreeTest.cpp.o: ../test/prefixTreeSuggestInterface.h
 CMakeFiles/datastructs.dir/test/prefixTreeTest.cpp.o: ../test/prefixTreeTest.cpp
 
