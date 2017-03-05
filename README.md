@@ -13,7 +13,7 @@ Prefix Tree of
 Prefix Tree of toLower
 Prefix Tree of toLower strings
 ```
-<a href="https://github.com/hornbd96/datastructs/blob/master/test/prefixTree.h">Pre - Implementation</a>
+<a href="https://github.com/hornbd96/datastructs/cpp/blob/master/test/prefixTree.h">Pre - Implementation</a>
 <br>
 <a href="https://github.com/hornbd96/datastructs/blob/master/test/prefixTreeTest.cpp">Pre - Unit Tests</a>
 <br>
