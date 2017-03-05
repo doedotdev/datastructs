@@ -13,9 +13,9 @@ Prefix Tree of
 Prefix Tree of toLower
 Prefix Tree of toLower strings
 ```
-<a href="https://github.com/hornbd96/datastructs/cpp/blob/master/test/prefixTree.h">Pre - Implementation</a>
+<a href="https://github.com/hornbd96/datastructs/blob/master/cpp/test/prefixTree.h">Pre - Implementation</a>
 <br>
-<a href="https://github.com/hornbd96/datastructs/blob/master/test/prefixTreeTest.cpp">Pre - Unit Tests</a>
+<a href="https://github.com/hornbd96/datastructs/blob/master/cpp/test/prefixTreeTest.cpp">Pre - Unit Tests</a>
 <br>
 
 <h3>Hash Map - Java</h3>
@@ -38,9 +38,9 @@ John   -->HashFunction()--> 234981
 Alice  -->HashFunction()--> 134892
 Jim    -->HashFunction()--> 987485
 ```
-<a href="https://github.com/hornbd96/datastructs/blob/master/test/hashTable.h">Hash - Implementation</a>
+<a href="https://github.com/hornbd96/datastructs/blob/master/cpp/test/hashTable.h">Hash - Implementation</a>
 <br>
-<a href="https://github.com/hornbd96/datastructs/blob/master/test/hashTableTest.cpp">Hash - Unit Tests</a>
+<a href="https://github.com/hornbd96/datastructs/blob/master/cpp/test/hashTableTest.cpp">Hash - Unit Tests</a>
 <br>
 
 <h3>Binary Search Tree</h3>
@@ -51,18 +51,18 @@ Jim    -->HashFunction()--> 987485
   / \ / \
  0  0 0  0
 ```
-<a href="https://github.com/hornbd96/datastructs/blob/master/test/bst.h">bst - Implementation</a>
+<a href="https://github.com/hornbd96/datastructs/blob/master/cpp/test/bst.h">bst - Implementation</a>
 <br>
-<a href="https://github.com/hornbd96/datastructs/blob/master/test/bstTest.cpp">bst - Unit Tests</a>
+<a href="https://github.com/hornbd96/datastructs/blob/master/cpp/test/bstTest.cpp">bst - Unit Tests</a>
 <br>
 
 <h3>Doubly Linked List</h3>
 ```
 HEAD -> (data) -> (data) -> (data) -> TAIL
 ```
-<a href="https://github.com/hornbd96/linkedList/blob/master/linkedList/tests/doublyLinkedList.h">Doubly Linked List - Implementation</a>
+<a href="https://github.com/hornbd96/linkedList/blob/master/linkedList/cpp/tests/doublyLinkedList.h">Doubly Linked List - Implementation</a>
 <br>
-<a href="https://github.com/hornbd96/linkedList/blob/master/linkedList/tests/tests.cpp">Doubly Linked List - Unit Tests</a>
+<a href="https://github.com/hornbd96/linkedList/blob/master/linkedList/cpp/tests/tests.cpp">Doubly Linked List - Unit Tests</a>
 <br>
 
 <h3>Stack</h3>
@@ -74,9 +74,9 @@ in ->       -> out
      (data)
      (data)
 ```
-<a href="https://github.com/hornbd96/linkedList/blob/master/linkedList/tests/stack.h">Stack - Implementation</a>
+<a href="https://github.com/hornbd96/linkedList/blob/master/linkedList/cpp/tests/stack.h">Stack - Implementation</a>
 <br>
-<a href="https://github.com/hornbd96/linkedList/blob/master/linkedList/tests/stackTest.cpp">Stack - Unit Tests</a>
+<a href="https://github.com/hornbd96/linkedList/blob/master/linkedList/cpp/tests/stackTest.cpp">Stack - Unit Tests</a>
 <br>
 
 <h3>Queue</h3>
