@@ -42,6 +42,12 @@ Jim    -->HashFunction()--> 987485
 <br>
 <a href="https://github.com/hornbd96/datastructs/blob/master/cpp/test/hashTableTest.cpp">Hash - Unit Tests</a>
 <br>
+<a href="https://github.com/hornbd96/datastructs/blob/master/cpp/test/hashCpp.h">Hash (Cpp built in) - Implementation</a>
+<br>
+<a href="https://github.com/hornbd96/datastructs/blob/master/cpp/test/hashCppTest.cpp">Hash (Cpp built in) - Unit Tests</a>
+<br>
+
+
 
 <h3>Binary Search Tree</h3>
 ```
