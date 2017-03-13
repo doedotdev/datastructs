@@ -273,6 +273,33 @@ test/bstTest.cpp.s:
 	$(MAKE) -f CMakeFiles/datastructs.dir/build.make CMakeFiles/datastructs.dir/test/bstTest.cpp.s
 .PHONY : test/bstTest.cpp.s
 
+test/hashCppTest.o: test/hashCppTest.cpp.o
+
+.PHONY : test/hashCppTest.o
+
+# target to build an object file
+test/hashCppTest.cpp.o:
+	$(MAKE) -f CMakeFiles/datastructs.dir/build.make CMakeFiles/datastructs.dir/test/hashCppTest.cpp.o
+.PHONY : test/hashCppTest.cpp.o
+
+test/hashCppTest.i: test/hashCppTest.cpp.i
+
+.PHONY : test/hashCppTest.i
+
+# target to preprocess a source file
+test/hashCppTest.cpp.i:
+	$(MAKE) -f CMakeFiles/datastructs.dir/build.make CMakeFiles/datastructs.dir/test/hashCppTest.cpp.i
+.PHONY : test/hashCppTest.cpp.i
+
+test/hashCppTest.s: test/hashCppTest.cpp.s
+
+.PHONY : test/hashCppTest.s
+
+# target to generate assembly for a file
+test/hashCppTest.cpp.s:
+	$(MAKE) -f CMakeFiles/datastructs.dir/build.make CMakeFiles/datastructs.dir/test/hashCppTest.cpp.s
+.PHONY : test/hashCppTest.cpp.s
+
 test/hashTableTest.o: test/hashTableTest.cpp.o
 
 .PHONY : test/hashTableTest.o
@@ -350,6 +377,9 @@ help:
 	@echo "... test/bstTest.o"
 	@echo "... test/bstTest.i"
 	@echo "... test/bstTest.s"
+	@echo "... test/hashCppTest.o"
+	@echo "... test/hashCppTest.i"
+	@echo "... test/hashCppTest.s"
 	@echo "... test/hashTableTest.o"
 	@echo "... test/hashTableTest.i"
 	@echo "... test/hashTableTest.s"
