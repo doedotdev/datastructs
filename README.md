@@ -1,4 +1,4 @@
-# datastructs
+# uc-data-structures
 Data Structures
 
 - Prefix Tree
