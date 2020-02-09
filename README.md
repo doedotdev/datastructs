@@ -1,5 +1,5 @@
 # uc-data-structures
-Data Structures
+University of Cincinnati - Data Structures
 
 - Prefix Tree
 - Hash Map - Java
